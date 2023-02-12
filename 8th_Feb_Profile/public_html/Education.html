@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Education</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML,CSS" > <!-- keywords for search engine -->
+        <meta name="description" content="Profile"> <!-- description of web page -->
+        <meta name="author" content="Smilee Lopes"> <!-- author of a page -->
+        <link rel="stylesheet" type="text/css" href="style.css"> <!--External css  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- icon libaray -->
+        <link rel="icon" type="image/x-icon" href="logo.svg"> <!-- icon -->
+        
+        <style>
+            body {
+                background-image: url('school.avif');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                margin: 0%;
+                background-size: 100% 100%;
+            }
+            
+       
+            .column{
+                margin: 10%;
+            }
+
+        </style>
+         <script>
+            function myfun(){
+                var x=document.getElementById("links");
+                if(x.style.display === "block"){
+                    x.style.display="none";
+                }else{
+                    x.style.display="block";
+                }
+            }
+            
+        </script>
+    </head>
+    <body>
+            <Header>
+            
+            <div class="col-s">
+                <div class="topnavigation">
+                    <a href="#home"  class="active">
+                        <img src="logo.svg" alt="alt" id="logo"/>
+                    </a>
+                    <div id="links">
+                        <a id="b" href="index.html">Home</a>
+                        <a id="b" href="Education.html">Education</a>
+                        <a id="b" href="Skill.html" >Skills</a>
+                        <a id="b" href="course.html">Courses</a>
+                        <a id="b" href="Reference.html">References</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myfun()"><i class="fa fa-bars"></i></a>
+                </div> 
+                
+            </div>
+            
+        </Header>
+        <div class="column">
+            
+            <ul>
+                <li>
+                    <p>2022-2024</p>
+                    <p>Goa University</p>
+                    <p>Master's in Computer Application</p>
+                </li>
+                <li>
+                     <p></p>
+                      <p></p>
+                       <p></p>second</li>
+                <li>third</li>
+            </ul>
+
+            <p>
+                
+                
+            </p><!-- comment -->
+            <p>
+                2019-2022 
+• 2019
+• 2017
+Govt. College of Arts, Science & 
+Commerce, Khandola, Marcela-Goa
+• B.Sc. in Computer Science
+Fr. Agnel Higher Secondary School, Pilar-Goa
+• Science Stream
+• 60%
+St. Andrew’s High School, Goa – Velha
+• 70%
+            </p>
+        </div>
+        <footer class="foot">
+            <p style="text-align: center;font-size:1vw;">Copyright &copy; 2023 Smilee Lopes. All Rights Reserved.</p>
+        </footer>
+        
+    </body>
+</html>

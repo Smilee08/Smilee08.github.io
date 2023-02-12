@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Courses</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML,CSS" > <!-- keywords for search engine -->
+        <meta name="description" content="Profile"> <!-- description of web page -->
+        <meta name="author" content="Smilee Lopes"> <!-- author of a page -->
+        <link rel="stylesheet" type="text/css" href="style.css"> <!--External css  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- icon libaray -->
+        <link rel="icon" type="image/x-icon" href="logo.svg"> <!-- icon -->
+        <style>
+              body {
+                background-image: url('course.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                margin: 0%;
+                background-size: 100% 100%;
+                background-color: white;
+            }
+            .column{
+                margin: 10%;
+                margin-left: 5%;
+                margin-top: 15%;
+                margin-right: 50%;
+                   
+            }
+            li{
+               color:white;
+               font-size: 2vw;
+               padding: 3%;
+            }
+        </style>
+         <script>
+            function myfun(){
+                var x=document.getElementById("links");
+                if(x.style.display === "block"){
+                    x.style.display="none";
+                }else{
+                    x.style.display="block";
+                }
+            }
+            
+        </script>
+    </head>
+    <body >
+         <Header>
+ 
+            <div class="col-s">
+                <div class="topnavigation">
+                    <a href="#home"  class="active">
+                        <img src="logo.svg" alt="alt" id="logo"/>
+                    </a>
+                    <div id="links">
+                        <a id="b" href="index.html">Home</a>                        
+                        <a id="b" href="Education.html">Education</a>
+                        <a id="b" href="Skill.html" >Skills</a>
+                        <a id="b" href="course.html">Courses</a>
+                        <a id="b" href="Reference.html">References</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myfun()"><i class="fa fa-bars"></i></a>
+                </div> 
+                
+            </div>
+        </Header>
+        <div class="column">
+            <h2 style="text-align: center;font-size: 3vw;color:white;">Courses</h2>
+            <ul>
+                <li>Completed an Online Certificate Course on WordPress at Govt. College of Arts, Science and Commerce, Khandola- Marcela, Goa held from 12th-27th May 2021 organized by the Department of 
+Vocational (Software Technologies).</li>
+                <li>Completed a Certificate Course in ASP.NET at Govt. College of Arts, Science and Commerce, 
+Khandola – Marcela, Goa, organized by Department of Computer Science in 2021.</li>
+                </ul>
+        </div>
+        
+        <footer>
+            <p style=" text-align: center;font-size:1vw;">Copyright &copy; 2023 Smilee Lopes. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>

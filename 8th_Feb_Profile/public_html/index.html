@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--
+Author:Smilee Lopes 
+Roll No:2268
+-->
+<html lang="en-IN">
+    <head>
+        <title>Smilee Lopes</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="60"> <!-- refresh document every 60 sec -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- setting the viewport to make website look good on all devices -->
+        <meta name="keywords" content="HTML,CSS" > <!-- keywords for search engine -->
+        <meta name="description" content="Profile"> <!-- description of web page -->
+        <meta name="author" content="Smilee Lopes"> <!-- author of a page -->
+        <link rel="stylesheet" type="text/css" href="style.css"> <!--External css  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="logo.svg"> <!-- icon -->
+        
+                
+        <style>
+                #pic{
+                    float:left;
+                    border-radius: 50%;
+                    height:80%;
+                    border-color: grey;
+                    border-style: solid;
+                    border-width: thin;
+                    width: 30%;
+                    margin-top: -34%;
+                    
+                }
+                #name{
+                    font-family:"Times New Roman", Times, serif;
+                   padding-top: 50%;
+                    margin: 10%;
+                    margin-left: 25%;
+                    font-size: 6vw;
+                    text-align: left;
+                    color: white;
+                }
+                
+                #description{
+                    font-family:"Times New Roman", Times, serif;
+                    font-size: 2vw;
+                    margin-top: -10%;
+                    margin-right: 40%;
+                    color: white;
+                }
+
+            
+            
+            body {
+                background-image: url('butterfly.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                margin: 0%;
+                background-size: 100% 100%;
+                
+            }
+            
+            .body{
+                margin-top: 80%;
+                align-content: center;
+                margin: 10%;
+                
+            }
+            
+            
+        </style>
+        
+        <script>
+            function myfun(){
+                var x=document.getElementById("links");
+                if(x.style.display === "block"){
+                    x.style.display="none";
+                }else{
+                    x.style.display="block";
+                }
+            }
+            
+        </script>
+        
+        
+        
+    </head>
+    <body>
+        <Header>
+            
+            <div class="col-s">
+                <div class="topnavigation">
+                    <a href="#home"  class="active">
+                        <img src="logo.svg" alt="alt" id="logo"/>
+                    </a>
+                    <div id="links">
+                        <a id="b" href="index.html">Home</a>
+                        <a id="b" href="Education.html">Education</a>
+                        <a id="b" href="Skill.html" >Skills</a>
+                        <a id="b" href="course.html">Courses</a>
+                        <a id="b" href="Reference.html">References</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myfun()"><i class="fa fa-bars"></i></a>
+                </div> 
+                
+            </div>
+            
+        </Header>
+        <div class="body">
+            <h1 style="padding:10%;" id="name">Smilee Lopes</h1>
+            <img src="icon.jpg" alt="Smiley face" id="pic">
+            <p id="description" style="text-align:center;">Hardworking and motivated individual looking for an opportunity that allows me to showcase my skills and contribute to the company’s growth.
+            </p>
+      
+            <i class="fa fa-map-marker" style="text-align: center;padding: 30px;border-radius: 20%; margin-left: 30px;margin-top: 50px;color:white; font-size: 30px; "> </i>
+            <p style="color:white; font-size: 40px ;margin-left: 100px;margin-top: -60px;">Saleria,<br>Goa-Velha,<br>Tiswadi-Goa</p>
+           
+            <a id="ic" target="_blank" href="https://www.linkedin.com/in/smilee-lopes-421750245" class="fa fa-linkedin-square" style="background-color: #007bb5;text-align: center;padding: 30px;border-radius: 20%; margin-left: 30px;color:white; font-size: 30px;"></a>
+            <a id="ic" target="_blank" href="tel:+918390913817" class="fa fa-phone" style="text-align: center;padding: 30px;border-radius: 20%; margin-left: 30px;color:white; font-size: 30px; "></a>
+            <a id="ic" target="_blank" href="mailto:adelinalopes6787@gmail.com" class="fa fa-envelope" style="text-align: center;padding: 30px;border-radius: 20%; margin-left: 30px;color:white;font-size: 30px; "></a>
+          
+        </div>    
+        
+  
+      
+        <footer>
+            <p style=" text-align: center;font-size:1.2vw;">Copyright &copy; 2023 Smilee Lopes. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>

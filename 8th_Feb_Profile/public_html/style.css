@@ -1,0 +1,117 @@
+/* 
+    Created on : 08-Feb-2023
+    Author     : Smilee Lopes
+    Roll No    : 2268
+*/
+/* Style tab links */
+
+header{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+}
+#logo{
+    height: 60px;
+    width: 50px           
+}
+.topnavigation{
+    overflow: hidden;
+    background-color:#000080;
+    position: relative;
+    border-color:white;
+    border-width: thin;
+    border-bottom-style: solid;
+  
+}
+
+.topnavigation #links{
+    display: none;
+   
+}
+.topnavigation #b{
+    color:#ffffff;
+    display: block;
+    text-decoration: none;
+    font-size: 2vw;
+    padding: 6px;
+    
+    text-align: center;
+    border-color: white;
+    border-style: solid;
+    border-width: thin; 
+}
+
+.topnavigation a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.topnavigation a.icon{
+    background:#000080;
+    position: absolute;
+    border-style:solid;
+    border-width: thin;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 6px;
+    margin-right: 5px;
+    border-color: white;
+    right:0;
+    top:0;
+    padding: 17px;
+    display: block;
+}
+
+.active{
+    background-color: #000080;
+}
+
+footer{
+    background-color: #000080;
+    color: white;
+    padding: 0.1%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+@media only screen and (max-width:768px){
+   
+    /*mobile*/
+    [class*="col-"]{
+        width: 100%;
+        
+    }
+}
+@media only screen and (min-width:600px){ /*laptop*/
+   
+.col-s-1{width: 8.33%;}
+.col-s-2{width: 16.66%;}
+.col-s-3{width: 25%;}
+.col-s-4{width: 33.33%;}
+.col-s-5{width: 41.66%;}
+.col-s-6{width: 50%;}
+.col-s-7{width: 58.33%;}
+.col-s-8{width: 66.66%;}
+.col-s-9{width: 75%;}
+.col-s-10{width: 83.33%;}
+.col-s-11{width: 91.33%;}
+.col-s-12{width: 100%;}
+}
+@media only screen and (min-width:768px){ /* desktop*/
+    
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.33%;}
+.col-12{width: 100%;}
+}
